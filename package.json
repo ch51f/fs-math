@@ -1,7 +1,7 @@
 {
   "name": "fs-math",
   "version": "0.1.0",
-  "description": "",
+  "description": "房星Math库",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
