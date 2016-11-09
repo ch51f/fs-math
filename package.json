@@ -1,11 +1,18 @@
 {
   "name": "fs-math",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "房星Math库",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --compilers js:babel-core/register --recursive"
   },
   "author": "ch51ff",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^3.1.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-preset-es2015": "^6.18.0"
+  }
 }

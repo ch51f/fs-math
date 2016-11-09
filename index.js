@@ -22,7 +22,7 @@ const FsMath = {
 		}
 		r1 = Number(arg1.toString().replace(".", ""));
 		r2 = Number(arg2.toString().replace(".", ""));
-		return this.Mul((r1 / r2), Math.pow(10, t2 - t1));
+		return this.mul((r1 / r2), Math.pow(10, t2 - t1));
 	},
 	multiply: function() {
 		if(arguments.length == 0)
@@ -74,7 +74,7 @@ const FsMath = {
 		}
 		m = Math.pow(10, Math.max(r1, r2));
 		n = (r1 >= r2) ? r1 : r2;
-		return ((this.Mul(arg1, m) - this.Mul(arg2, m)) / m);
+		return ((this.mul(arg1, m) - this.mul(arg2, m)) / m);
 	},
 	addition: function() {
 		if(arguments.length == 0)
