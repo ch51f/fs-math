@@ -28,7 +28,7 @@ const FsMath = {
 		if(arguments.length == 0)
 			return 0;
 		let result = 1;
-		for(let i in arguments) {
+		for(let i = 0; i < arguments.length; i++) {
 			result = this.mul(result, arguments[i]);
 		}
 		return result;
@@ -80,7 +80,7 @@ const FsMath = {
 		if(arguments.length == 0)
 			return 0;
 		let result = 0;
-		for(let i in arguments) {
+		for(let i = 0; i < arguments.length; i++) {
 			result = this.add(result, arguments[i]);
 		}
 		return result;

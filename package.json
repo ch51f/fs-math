@@ -1,6 +1,6 @@
 {
   "name": "fs-math",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "房星Math库",
   "main": "index.js",
   "scripts": {
