@@ -54,4 +54,10 @@ describe('房星Math库测试', function() {
 			assert.equal(fm.subtract(1), 1)
 		});
 	});
+
+	describe('floor(values, precision)精度方法测试', function() {
+		it("floor(0.123456789, 5)", function() {
+			assert.equal(fm.floor(0.123456789, 5), 0.12345)
+		});
+	});
 });
